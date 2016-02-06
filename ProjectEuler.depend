@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1454768570 source:c:\users\shawh\onedrive\documents\c++ projects\projecteuler\main.c
+	"problems.h"
+	"utils.h"
+	<stdio.h>
+	<string.h>
+
+1454771022 c:\users\shawh\onedrive\documents\c++ projects\projecteuler\problems.h
+
+1454769440 c:\users\shawh\onedrive\documents\c++ projects\projecteuler\utils.h
+
+1454768492 source:c:\users\shawh\onedrive\documents\c++ projects\projecteuler\problems.c
+	"problems.h"
+	<string.h>
+
