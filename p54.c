@@ -1,8 +1,23 @@
 #include "problems.h"
 #include <stdio.h>
 
-BEGIN_PROBLEM(54)
+void p54(void)
+{
+    const char *poker_filename = "p054_poker.txt";
+    char error_msg[64];
+    FILE *poker_file = NULL;
+    int i, j;
 
-    printf("You are in problem 54!\n");
+    poker_file = fopen(poker_filename, "r");
+    if (poker_file == NULL) {
+        snprintf(error_msg, 64, "Failed to open %s", poker_filename);
+        perror(error_msg);
+        return;
+    }
 
-END_PROBLEM
+    for (i = 0; i < 2; ++j) {
+        for (i = 0; i < 5; ++i) {
+
+        }
+    }
+}
