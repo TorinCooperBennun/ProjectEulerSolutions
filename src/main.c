@@ -30,7 +30,7 @@ int main(void)
         else {
             problem_ptr = get_problem(problem_n);
             if (problem_ptr == NULL) {
-                printf("Problem is not implemented!\n", problem_n);
+                printf("Problem %d is not implemented!\n", problem_n);
             }
             else {
                 problem_ptr();

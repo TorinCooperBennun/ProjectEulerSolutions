@@ -3,7 +3,7 @@
 
 void p54(void)
 {
-    const char *poker_filename = "p054_poker.txt";
+    const char *poker_filename = "p54_data.txt";
     char error_msg[64];
     FILE *poker_file = NULL;
     int i, j;
@@ -13,11 +13,5 @@ void p54(void)
         snprintf(error_msg, 64, "Failed to open %s", poker_filename);
         perror(error_msg);
         return;
-    }
-
-    for (i = 0; i < 2; ++j) {
-        for (i = 0; i < 5; ++i) {
-
-        }
     }
 }
